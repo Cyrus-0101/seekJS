@@ -12,3 +12,19 @@ h1 {
   color: #ca1d1d;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .body, .App {
+    display: flex;
+    text-align: center;
+  }
+
+  #side-menu-toggle {
+    display: none;
+  }
+
+  h1 {
+    width: 30rem;
+    text-align: center;
+  }
+}
